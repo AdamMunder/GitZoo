@@ -2,8 +2,10 @@ package Animal;
 
 public abstract class Animal {
     private String name;
+    private int age;
     public Animal(String name ){
         this.name = name;
+        age = 0;
     }
     public abstract void makeSound();
 }
