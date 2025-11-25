@@ -6,6 +6,10 @@ public abstract class Animal {
     public Animal(String name ){
         this.name = name;
         age = 0;
+        massage();
     }
     public abstract void makeSound();
+    public void massage(){
+        System.out.println("new Animal is Born!")
+    }
 }
